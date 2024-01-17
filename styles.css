@@ -1,0 +1,29 @@
+body {
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(50, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 0px;
+}
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    transition: background-color is ease;
+    background-color: white;
+}
+
+.fade-out-background {
+    background-color: yellow;
+}
